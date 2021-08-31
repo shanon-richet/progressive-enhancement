@@ -1,0 +1,147 @@
+body {
+    max-width: 90%;
+    margin:auto;
+    background: -webkit-linear-gradient(-180deg, rgb(245, 241, 229), rgb(42, 227, 77));
+    background: linear-gradient(-180deg, rgb(245, 241, 229), rgb(42, 227, 77));
+    background-image: url("chinese.jpg");
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif;
+    color: darkslateblue;
+  }
+  
+  
+  header {
+      font-size: 100px;
+      text-align: center;
+      background-color: #ffff80;
+  }
+  
+  blockquote {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 80px;
+    text-indent: 30px;
+    width: 100%;
+    font-size: 160%;
+    background: #f2f2f2;
+    border-left:3px solid firebrick;
+    font-style:italic;
+  }
+  
+  b {
+    margin: 50px;
+  }
+  ul {
+    text-align: center;
+    font-style: italic;
+    margin: 50px;
+  }
+  li{
+    margin: 50px;
+  }
+  div {
+    font-size: 30px;
+  }
+  
+  
+  object {
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-style: italic;
+  }
+  
+  object:hover {
+    opacity:0.8;
+  }
+
+  main {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    opacity: 0.7;
+      border-collapse: separate;
+      border: 2px solid black;
+      letter-spacing: 1px;
+      font-size: 50px;
+    }
+    
+    #a {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .a {
+        margin-left: 1000px;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 10px 20px;
+    }
+  
+    details {
+      margin-top: -100px;
+      margin-left: 1300px;
+      font-size: 50px;
+    }
+  
+    p{
+      float: right;
+      font-size: 30px;
+    }
+  
+  
+  h2 {
+      font-size: 50px;
+      margin-left: 1200px;
+      margin-bottom: -50px;
+    }
+  
+    article {
+      font-size: 20px;
+      margin:100px;
+    }
+  
+  .good {
+    color: green;
+    text-transform: capitalize;
+  }
+  
+  .bad {
+    color: red;
+    text-transform: capitalize;
+  }
+  
+  #Good {
+    background-image: url("good.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 300px;
+  }
+  
+  .villagers {
+      margin-left: 5px;
+    border-left:5px ridge darkred;
+  }
+
+  .farmer{
+      margin-left:5px;
+    border-left:5px ridge darkgreen;
+  }
+  
+  footer {
+    margin: 50px;
+    font-size: 40px;
+  }
+  aside {
+    margin: 50px;
+    font-size: 20px;
+  }
