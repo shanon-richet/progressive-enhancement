@@ -28,18 +28,14 @@ body {
     font-style:italic;
   }
   
-  b {
-    margin: 50px;
-  }
   ul {
     font-style: italic;
     font-size: 20px;
-    padding:5px;
-    left: 50%;
   }
   li {
+      margin-left: 10px;
       line-height: 5px;
-      left: 50%;
+      padding:10px;
   }
 
   div {
@@ -48,7 +44,7 @@ body {
   
   
   object {
-    padding: 50px;
+    padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +54,31 @@ body {
   
   object:hover {
     opacity:0.8;
+  }
+
+  p{
+      margin-top: -60px;
+  }
+
+ span {
+      visibility: hidden;
+      border: 1px solid blue;
+      background: blue;
+      color:whitesmoke;
+      position:absolute;
+      z-index: 1;
+  }
+
+  img:hover:after {
+      position: absolute;
+      content:attr(title);
+      visibility: visible;
+      padding: 50px;
+  }
+
+  p {
+      margin-left: 10px;
+      float: left;
   }
 
   main {
@@ -83,7 +104,7 @@ body {
     }
     td, th {
       border: 1px solid black;
-      padding: 10px 20px;
+      padding: 20px;
     }
   
     details {
@@ -92,10 +113,6 @@ body {
       font-size: 50px;
     }
   
-    p{
-      float: right;
-      font-size: 30px;
-    }
   
   
   h2 {
@@ -105,7 +122,7 @@ body {
     }
   
     article {
-      font-size: 20px;
+      font-size: 16px;
       margin:100px;
     }
   
@@ -128,12 +145,12 @@ body {
   
   .villagers {
       margin-left: 5px;
-    border-left:5px ridge darkred;
+    border-left:5px ridge #005ce6;
   }
 
   .farmer{
       margin-left:5px;
-    border-left:5px ridge darkgreen;
+    border-left:5px ridge #002e4d;
   }
   
   footer {
